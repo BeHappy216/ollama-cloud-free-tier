@@ -1,6 +1,8 @@
 name: Probe free cloud models
 
 on:
+  schedule:
+    - cron: "0 6 * * *"
   workflow_dispatch:
     inputs:
       model:
@@ -30,7 +32,6 @@ on:
 
 permissions:
   contents: write
-  pull-requests: write
 
 jobs:
   probe:
@@ -58,30 +59,38 @@ jobs:
 
       - name: Discover cloud models
         run: |
+          MAX_SEARCH_PAGES="${INPUT_MAX_SEARCH_PAGES:-10}"
+          MAX_FAMILY_PAGES="${INPUT_MAX_FAMILY_PAGES:-100}"
           uv run python scripts/discover.py \
-            --max-search-pages "$INPUT_MAX_SEARCH_PAGES" \
-            --max-family-pages "$INPUT_MAX_FAMILY_PAGES"
+            --max-search-pages "$MAX_SEARCH_PAGES" \
+            --max-family-pages "$MAX_FAMILY_PAGES"
 
       - name: Probe models
         run: |
+          MAX_MODELS="${INPUT_MAX_MODELS:-100}"
+          DELAY_SECONDS="${INPUT_DELAY_SECONDS:-3}"
           if [ -n "$INPUT_MODEL" ]; then
             uv run python scripts/probe.py \
               --model "$INPUT_MODEL" \
-              --delay-seconds "$INPUT_DELAY_SECONDS"
+              --delay-seconds "$DELAY_SECONDS"
           else
             uv run python scripts/probe.py \
               --all \
-              --max "$INPUT_MAX_MODELS" \
-              --delay-seconds "$INPUT_DELAY_SECONDS"
+              --max "$MAX_MODELS" \
+              --delay-seconds "$DELAY_SECONDS"
           fi
 
       - name: Render README
         run: uv run python scripts/render_readme.py
 
-      - name: Create pull request
-        uses: peter-evans/create-pull-request@v6
-        with:
-          branch: bot/update-free-model-status
-          title: "Update Free-tier Ollama cloud model status"
-          commit-message: "Update Free-tier Ollama cloud model status"
-          body: "Updates discovered cloud models and Free-tier probe results."
+      - name: Commit and push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          if [ -n "$(git status --porcelain)" ]; then
+            git add data/ README.md
+            git commit -m "Update Free-tier Ollama cloud model status" || echo "Nothing staged, skipping commit"
+            git push
+          else
+            echo "No changes to commit"
+          fi

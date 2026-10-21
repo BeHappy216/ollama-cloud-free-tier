@@ -13,6 +13,7 @@ It answers one question:
 **Free?**
 - ✅ - model returned a successful response from a Free Ollama account
 - 🔒 - Ollama returned a subscription or upgrade error
+- ⛔ - model type is not compatible with the chat probe (for example decision models)
 - ⚠️ - probe failed for another reason
 
 **Usage** (as reported by Ollama)
@@ -23,10 +24,11 @@ It answers one question:
 
 ## Models
 <!-- MODELS_TABLE_START -->
-> Last checked: 2026-09-15 05:11 UTC
+> Last checked: 2026-10-20 14:56 UTC
 
 | Model | Free? | Usage |
 |---|:---:|:---:|
+| [`beam:cloud`](https://ollama.com/library/beam:cloud) | ✅ | ▰▱▱▱ |
 | [`cogito-2.1:671b-cloud`](https://ollama.com/library/cogito-2.1:671b-cloud) | ✅ | ▰▰▰▱ |
 | [`devstral-2:123b-cloud`](https://ollama.com/library/devstral-2:123b-cloud) | ✅ | ▰▰▰▱ |
 | [`devstral-small-2:24b-cloud`](https://ollama.com/library/devstral-small-2:24b-cloud) | ✅ | ▰▱▱▱ |
@@ -42,6 +44,7 @@ It answers one question:
 | [`minimax-m2.1:cloud`](https://ollama.com/library/minimax-m2.1:cloud) | ✅ | ▰▰▱▱ |
 | [`minimax-m2.5:cloud`](https://ollama.com/library/minimax-m2.5:cloud) | ✅ | ▰▰▱▱ |
 | [`minimax-m2:cloud`](https://ollama.com/library/minimax-m2:cloud) | ✅ | ▰▰▱▱ |
+| [`minimax-m3.1-flash:cloud`](https://ollama.com/library/minimax-m3.1-flash:cloud) | ✅ | ▰▰▱▱ |
 | [`ministral-3:14b-cloud`](https://ollama.com/library/ministral-3:14b-cloud) | ✅ | ▰▱▱▱ |
 | [`ministral-3:3b-cloud`](https://ollama.com/library/ministral-3:3b-cloud) | ✅ | ▰▱▱▱ |
 | [`ministral-3:8b-cloud`](https://ollama.com/library/ministral-3:8b-cloud) | ✅ | ▰▱▱▱ |
@@ -62,7 +65,8 @@ It answers one question:
 | [`deepseek-v4-pro:0813-cloud`](https://ollama.com/library/deepseek-v4-pro:0813-cloud) | 🔒 | ▰▰▰▰ |
 | [`deepseek-v4-pro:cloud`](https://ollama.com/library/deepseek-v4-pro:cloud) | 🔒 | ▰▰▰▰ |
 | [`deepseek-v4-pro:preview-cloud`](https://ollama.com/library/deepseek-v4-pro:preview-cloud) | 🔒 | ▰▰▰▰ |
-| [`deepseek-v4.1-flash:cloud`](https://ollama.com/library/deepseek-v4.1-flash:cloud) | 🔒 | — |
+| [`deepseek-v4.1-flash:1017-cloud`](https://ollama.com/library/deepseek-v4.1-flash:1017-cloud) | 🔒 | ▰▰▱▱ |
+| [`deepseek-v4.1-flash:cloud`](https://ollama.com/library/deepseek-v4.1-flash:cloud) | 🔒 | ▰▰▱▱ |
 | [`glm-5.1:cloud`](https://ollama.com/library/glm-5.1:cloud) | 🔒 | ▰▰▰▱ |
 | [`glm-5.2:cloud`](https://ollama.com/library/glm-5.2:cloud) | 🔒 | ▰▰▰▱ |
 | [`glm-5.3-flash:cloud`](https://ollama.com/library/glm-5.3-flash:cloud) | 🔒 | ▰▰▱▱ |
@@ -77,8 +81,12 @@ It answers one question:
 | [`minimax-m2.7:cloud`](https://ollama.com/library/minimax-m2.7:cloud) | 🔒 | ▰▰▱▱ |
 | [`minimax-m3:cloud`](https://ollama.com/library/minimax-m3:cloud) | 🔒 | ▰▰▰▱ |
 | [`mistral-large-3:675b-cloud`](https://ollama.com/library/mistral-large-3:675b-cloud) | 🔒 | ▰▰▱▱ |
+| [`muse-spark-open:cloud`](https://ollama.com/library/muse-spark-open:cloud) | 🔒 | ▰▰▰▱ |
 | [`qwen3.5:397b-cloud`](https://ollama.com/library/qwen3.5:397b-cloud) | 🔒 | ▰▰▱▱ |
 | [`qwen3.5:cloud`](https://ollama.com/library/qwen3.5:cloud) | 🔒 | ▰▰▱▱ |
+| [`clef:27b-cloud`](https://ollama.com/library/clef:27b-cloud) | ⛔ | ▰▱▱▱ |
+| [`clef:cloud`](https://ollama.com/library/clef:cloud) | ⛔ | ▰▱▱▱ |
+| [`mistral-large-4:cloud`](https://ollama.com/library/mistral-large-4:cloud) | ⚠️ | ▰▰▰▱ |
 <!-- MODELS_TABLE_END -->
 
 ## Methodology
@@ -125,13 +133,13 @@ uv run python scripts/render_readme.py
 
 ## GitHub Action
 
-The workflow is manual-only.
+The workflow runs daily on a schedule (06:00 UTC) and can also be triggered manually.
 
 Add this repository secret:
 ```bash
 OLLAMA_FREE_API_KEY
 ```
-Then run the workflow manually from GitHub Actions.
+The workflow then runs automatically each day, or you can run it manually from GitHub Actions. When the probe results change, the updated `data/` files and README table are committed directly to the default branch.
 
 ## License
 

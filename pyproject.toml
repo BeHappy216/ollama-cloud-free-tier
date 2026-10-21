@@ -14,6 +14,7 @@ package = false
 
 [dependency-groups]
 dev = [
+    "pytest>=8.0",
     "ruff>=0.4.0",
 ]
 
@@ -21,6 +22,7 @@ dev = [
 line-length = 120
 indent-width = 4
 target-version = "py312"
+extend-exclude = [".codeartsdoer"]
 
 [tool.ruff.lint]
 select = ["E", "F", "I", "UP", "B", "D", "SIM"]

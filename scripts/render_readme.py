@@ -19,6 +19,7 @@ END = "<!-- MODELS_TABLE_END -->"
 STATUS_LABELS = {
     "free": "✅",
     "requires_subscription": "🔒",
+    "unsupported": "⛔",
     "error": "⚠️",
 }
 
@@ -32,7 +33,8 @@ USAGE_METERS = {
 STATUS_ORDER = {
     "free": 0,
     "requires_subscription": 1,
-    "error": 2,
+    "unsupported": 2,
+    "error": 3,
 }
 
 

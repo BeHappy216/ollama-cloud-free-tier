@@ -28,6 +28,7 @@ USER_AGENT = "ollama-free-cloud-models/0.1"
 VALID_STATUSES = {
     "free",
     "requires_subscription",
+    "unsupported",
     "error",
 }
 
@@ -113,7 +114,16 @@ def classify(http_status: int | None, error_text: str | None) -> str:
 
     text = (error_text or "").lower()
 
-    if http_status in (402, 403) and (
+    # Decision models only support the /v1/systemone endpoint, so a chat
+    # probe can never succeed regardless of the account tier.
+    if http_status == 400 and ("decision model" in text or "only supports" in text):
+        return "unsupported"
+
+    # 402 Payment Required is by definition a plan/upgrade error.
+    if http_status == 402:
+        return "requires_subscription"
+
+    if http_status == 403 and (
         "subscription" in text
         or "upgrade" in text
         or "requires" in text

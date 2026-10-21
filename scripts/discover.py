@@ -230,11 +230,33 @@ def cloud_search_url(page: int) -> str:
     return f"{PUBLIC_CLOUD_SEARCH_URL}&page={page}"
 
 
+def extract_family_usage_from_search(html: str) -> dict[str, str]:
+    soup = BeautifulSoup(html, "html.parser")
+    usage_by_family: dict[str, str] = {}
+
+    for link in soup.find_all("a", href=True):
+        href = str(link["href"])
+
+        if not href.startswith("/library/"):
+            continue
+
+        model = normalize_model_name(href)
+
+        if not model or ":" in model:
+            continue
+
+        usage = extract_usage(link.get_text(" ", strip=True))
+        merge_usage(usage_by_family, model, usage)
+
+    return usage_by_family
+
+
 def fetch_cloud_families_from_search_pages(
     client: httpx.Client,
     max_pages: int,
-) -> set[str]:
+) -> tuple[set[str], dict[str, str]]:
     families: set[str] = set()
+    usage_by_family: dict[str, str] = {}
 
     for page in range(1, max_pages + 1):
         url = cloud_search_url(page)
@@ -244,6 +266,7 @@ def fetch_cloud_families_from_search_pages(
             break
 
         links = extract_library_links(html)
+        usage_by_family.update(extract_family_usage_from_search(html))
 
         # Search result pages link to model families like "glm-5.1",
         # "gpt-oss", "qwen3-coder", etc. They usually do not expose every
@@ -262,7 +285,7 @@ def fetch_cloud_families_from_search_pages(
         if len(families) == before:
             break
 
-    return families
+    return families, usage_by_family
 
 
 def fetch_cloud_tags_from_family_pages(
@@ -297,24 +320,36 @@ def fetch_cloud_tags_from_family_pages(
     return found, usage_by_model
 
 
-def fetch_from_public_cloud_pages(max_search_pages: int, max_family_pages: int) -> set[str]:
+def fetch_from_public_cloud_pages(
+    max_search_pages: int,
+    max_family_pages: int,
+) -> tuple[set[str], dict[str, str]]:
     headers = {"User-Agent": USER_AGENT}
 
     with httpx.Client(timeout=30, follow_redirects=True, headers=headers) as client:
-        families = fetch_cloud_families_from_search_pages(
+        families, usage_by_family = fetch_cloud_families_from_search_pages(
             client=client,
             max_pages=max_search_pages,
         )
 
         print(f"public_cloud_families_total: {len(families)}")
 
-        cloud_tags = fetch_cloud_tags_from_family_pages(
+        cloud_tags, usage_by_model = fetch_cloud_tags_from_family_pages(
             client=client,
             families=families,
             max_family_pages=max_family_pages,
         )
 
-        return cloud_tags
+        # Family pages no longer expose usage text; the search result cards
+        # do. Inherit the family-level usage for each cloud tag unless the
+        # family page already provided a tag-specific value.
+        for model in cloud_tags:
+            family = model.split(":", 1)[0]
+
+            if model not in usage_by_model and family in usage_by_family:
+                usage_by_model[model] = usage_by_family[family]
+
+        return cloud_tags, usage_by_model
 
 
 def build_candidates(
