@@ -24,7 +24,7 @@ It answers one question:
 
 ## Models
 <!-- MODELS_TABLE_START -->
-> Last checked: 2026-10-22 11:27 UTC
+> Last checked: 2026-10-23 11:16 UTC
 
 | Model | Free? | Usage |
 |---|:---:|:---:|
@@ -44,7 +44,6 @@ It answers one question:
 | [`minimax-m2.1:cloud`](https://ollama.com/library/minimax-m2.1:cloud) | ✅ | ▰▰▱▱ |
 | [`minimax-m2.5:cloud`](https://ollama.com/library/minimax-m2.5:cloud) | ✅ | ▰▰▱▱ |
 | [`minimax-m2:cloud`](https://ollama.com/library/minimax-m2:cloud) | ✅ | ▰▰▱▱ |
-| [`minimax-m3.1-flash:cloud`](https://ollama.com/library/minimax-m3.1-flash:cloud) | ✅ | ▰▰▱▱ |
 | [`ministral-3:14b-cloud`](https://ollama.com/library/ministral-3:14b-cloud) | ✅ | ▰▱▱▱ |
 | [`ministral-3:3b-cloud`](https://ollama.com/library/ministral-3:3b-cloud) | ✅ | ▰▱▱▱ |
 | [`ministral-3:8b-cloud`](https://ollama.com/library/ministral-3:8b-cloud) | ✅ | ▰▱▱▱ |
@@ -79,6 +78,7 @@ It answers one question:
 | [`kimi-k2:1t-cloud`](https://ollama.com/library/kimi-k2:1t-cloud) | 🔒 | ▰▰▰▱ |
 | [`kimi-k3:cloud`](https://ollama.com/library/kimi-k3:cloud) | 🔒 | ▰▰▰▰ |
 | [`minimax-m2.7:cloud`](https://ollama.com/library/minimax-m2.7:cloud) | 🔒 | ▰▰▱▱ |
+| [`minimax-m3.1-flash:cloud`](https://ollama.com/library/minimax-m3.1-flash:cloud) | 🔒 | ▰▰▱▱ |
 | [`minimax-m3:cloud`](https://ollama.com/library/minimax-m3:cloud) | 🔒 | ▰▰▰▱ |
 | [`mistral-large-3:675b-cloud`](https://ollama.com/library/mistral-large-3:675b-cloud) | 🔒 | ▰▰▱▱ |
 | [`muse-spark-open:cloud`](https://ollama.com/library/muse-spark-open:cloud) | 🔒 | ▰▰▰▱ |
