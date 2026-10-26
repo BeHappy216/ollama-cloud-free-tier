@@ -1,6 +1,6 @@
 [
   {
-    "checked_at": "2026-10-25T10:59:15Z",
+    "checked_at": "2026-10-26T12:31:29Z",
     "error_excerpt": null,
     "http_status": 200,
     "model": "beam:cloud",
@@ -8,7 +8,7 @@
     "usage": "low"
   },
   {
-    "checked_at": "2026-10-25T10:59:18Z",
+    "checked_at": "2026-10-26T12:31:32Z",
     "error_excerpt": "clef:27b-cloud is a decision model and only supports /v1/systemone",
     "http_status": 400,
     "model": "clef:27b-cloud",
@@ -16,7 +16,7 @@
     "usage": "low"
   },
   {
-    "checked_at": "2026-10-25T10:59:21Z",
+    "checked_at": "2026-10-26T12:31:35Z",
     "error_excerpt": "clef:cloud is a decision model and only supports /v1/systemone",
     "http_status": 400,
     "model": "clef:cloud",
@@ -72,7 +72,7 @@
     "usage": "medium"
   },
   {
-    "checked_at": "2026-10-25T10:59:25Z",
+    "checked_at": "2026-10-26T12:31:38Z",
     "error_excerpt": "This model is not in the Free plan. Pro is $20/month for $60 of usage, with no 5-hour or weekly caps: Try gemma4:31b-cloud, which is in the Free plan.",
     "http_status": 402,
     "model": "deepseek-v4-pro:0813-cloud",
@@ -80,7 +80,7 @@
     "usage": "extra high"
   },
   {
-    "checked_at": "2026-10-25T10:59:28Z",
+    "checked_at": "2026-10-26T12:31:41Z",
     "error_excerpt": "This model is not in the Free plan. Pro is $20/month for $60 of usage, with no 5-hour or weekly caps: Try gemma4:31b-cloud, which is in the Free plan.",
     "http_status": 402,
     "model": "deepseek-v4-pro:cloud",
@@ -96,7 +96,7 @@
     "usage": "extra high"
   },
   {
-    "checked_at": "2026-10-25T10:59:31Z",
+    "checked_at": "2026-10-26T12:31:44Z",
     "error_excerpt": "This model is not in the Free plan. Pro is $20/month for $60 of usage, with no 5-hour or weekly caps: Try gemma4:31b-cloud, which is in the Free plan.",
     "http_status": 402,
     "model": "deepseek-v4.1-flash:1017-cloud",
@@ -104,7 +104,7 @@
     "usage": "medium"
   },
   {
-    "checked_at": "2026-10-25T10:59:34Z",
+    "checked_at": "2026-10-26T12:31:48Z",
     "error_excerpt": "This model is not in the Free plan. Pro is $20/month for $60 of usage, with no 5-hour or weekly caps: Try gemma4:31b-cloud, which is in the Free plan.",
     "http_status": 402,
     "model": "deepseek-v4.1-flash:cloud",
@@ -152,7 +152,7 @@
     "usage": "low"
   },
   {
-    "checked_at": "2026-10-25T10:59:37Z",
+    "checked_at": "2026-10-26T12:31:51Z",
     "error_excerpt": null,
     "http_status": 200,
     "model": "gemma4:31b-cloud",
@@ -160,7 +160,7 @@
     "usage": "low"
   },
   {
-    "checked_at": "2026-10-25T10:59:41Z",
+    "checked_at": "2026-10-26T12:31:54Z",
     "error_excerpt": null,
     "http_status": 200,
     "model": "gemma4:cloud",
@@ -192,7 +192,7 @@
     "usage": "high"
   },
   {
-    "checked_at": "2026-10-25T10:59:44Z",
+    "checked_at": "2026-10-26T12:31:57Z",
     "error_excerpt": "This model is not in the Free plan. Pro is $20/month for $60 of usage, with no 5-hour or weekly caps: Try gemma4:31b-cloud, which is in the Free plan.",
     "http_status": 402,
     "model": "glm-5.2:cloud",
@@ -200,7 +200,7 @@
     "usage": "high"
   },
   {
-    "checked_at": "2026-10-25T10:59:47Z",
+    "checked_at": "2026-10-26T12:32:00Z",
     "error_excerpt": "This model is not in the Free plan. Pro is $20/month for $60 of usage, with no 5-hour or weekly caps: Try gemma4:31b-cloud, which is in the Free plan.",
     "http_status": 402,
     "model": "glm-5.3-flash:cloud",
@@ -208,7 +208,7 @@
     "usage": "medium"
   },
   {
-    "checked_at": "2026-10-25T10:59:50Z",
+    "checked_at": "2026-10-26T12:32:04Z",
     "error_excerpt": "This model is not in the Free plan. Pro is $20/month for $60 of usage, with no 5-hour or weekly caps: Try gemma4:31b-cloud, which is in the Free plan.",
     "http_status": 402,
     "model": "glm-5.3:cloud",
@@ -256,7 +256,7 @@
     "usage": "high"
   },
   {
-    "checked_at": "2026-10-25T10:59:54Z",
+    "checked_at": "2026-10-26T12:32:07Z",
     "error_excerpt": "This model is not in the Free plan. Pro is $20/month for $60 of usage, with no 5-hour or weekly caps: Try gemma4:31b-cloud, which is in the Free plan.",
     "http_status": 402,
     "model": "kimi-k2.6:cloud",
@@ -264,7 +264,7 @@
     "usage": "high"
   },
   {
-    "checked_at": "2026-10-25T10:59:57Z",
+    "checked_at": "2026-10-26T12:32:10Z",
     "error_excerpt": "This model is not in the Free plan. Pro is $20/month for $60 of usage, with no 5-hour or weekly caps: Try gemma4:31b-cloud, which is in the Free plan.",
     "http_status": 402,
     "model": "kimi-k2.7-code:cloud",
@@ -280,7 +280,7 @@
     "usage": "high"
   },
   {
-    "checked_at": "2026-10-25T11:00:00Z",
+    "checked_at": "2026-10-26T12:32:13Z",
     "error_excerpt": "This model is not in the Free plan. Pro is $20/month for $60 of usage, with no 5-hour or weekly caps: Try gemma4:31b-cloud, which is in the Free plan.",
     "http_status": 402,
     "model": "kimi-k3:cloud",
@@ -304,7 +304,7 @@
     "usage": "medium"
   },
   {
-    "checked_at": "2026-10-25T11:00:03Z",
+    "checked_at": "2026-10-26T12:32:16Z",
     "error_excerpt": "This model is not in the Free plan. Pro is $20/month for $60 of usage, with no 5-hour or weekly caps: Try gemma4:31b-cloud, which is in the Free plan.",
     "http_status": 402,
     "model": "minimax-m2.7:cloud",
@@ -320,7 +320,7 @@
     "usage": "medium"
   },
   {
-    "checked_at": "2026-10-25T11:00:06Z",
+    "checked_at": "2026-10-26T12:32:19Z",
     "error_excerpt": "This model is not in the Free plan. Pro is $20/month for $60 of usage, with no 5-hour or weekly caps: Try gemma4:31b-cloud, which is in the Free plan.",
     "http_status": 402,
     "model": "minimax-m3.1-flash:cloud",
@@ -328,7 +328,7 @@
     "usage": "medium"
   },
   {
-    "checked_at": "2026-10-25T11:00:09Z",
+    "checked_at": "2026-10-26T12:32:22Z",
     "error_excerpt": "This model is not in the Free plan. Pro is $20/month for $60 of usage, with no 5-hour or weekly caps: Try gemma4:31b-cloud, which is in the Free plan.",
     "http_status": 402,
     "model": "minimax-m3:cloud",
@@ -360,7 +360,7 @@
     "usage": "low"
   },
   {
-    "checked_at": "2026-10-25T11:00:13Z",
+    "checked_at": "2026-10-26T12:32:25Z",
     "error_excerpt": "This model is not in the Free plan. Pro is $20/month for $60 of usage, with no 5-hour or weekly caps: Try gemma4:31b-cloud, which is in the Free plan.",
     "http_status": 402,
     "model": "mistral-large-3:675b-cloud",
@@ -368,7 +368,7 @@
     "usage": "medium"
   },
   {
-    "checked_at": "2026-10-25T11:00:16Z",
+    "checked_at": "2026-10-26T12:32:28Z",
     "error_excerpt": "This model is currently being rolled out and is not yet available to you. Please check back later.",
     "http_status": 403,
     "model": "mistral-large-4:cloud",
@@ -376,7 +376,7 @@
     "usage": "high"
   },
   {
-    "checked_at": "2026-10-25T11:00:19Z",
+    "checked_at": "2026-10-26T12:32:31Z",
     "error_excerpt": "This model is not in the Free plan. Pro is $20/month for $60 of usage, with no 5-hour or weekly caps: Try gemma4:31b-cloud, which is in the Free plan.",
     "http_status": 402,
     "model": "muse-spark-open:cloud",
@@ -384,7 +384,7 @@
     "usage": "high"
   },
   {
-    "checked_at": "2026-10-25T11:00:22Z",
+    "checked_at": "2026-10-26T12:32:35Z",
     "error_excerpt": null,
     "http_status": 200,
     "model": "nemotron-3-nano:30b-cloud",
@@ -392,7 +392,7 @@
     "usage": "low"
   },
   {
-    "checked_at": "2026-10-25T11:00:26Z",
+    "checked_at": "2026-10-26T12:32:38Z",
     "error_excerpt": null,
     "http_status": 200,
     "model": "nemotron-3-super:cloud",
@@ -400,7 +400,7 @@
     "usage": "medium"
   },
   {
-    "checked_at": "2026-10-25T11:00:29Z",
+    "checked_at": "2026-10-26T12:32:41Z",
     "error_excerpt": null,
     "http_status": 200,
     "model": "nemotron-3-ultra:cloud",
