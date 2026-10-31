@@ -24,7 +24,7 @@ It answers one question:
 
 ## Models
 <!-- MODELS_TABLE_START -->
-> Last checked: 2026-10-30 12:26 UTC
+> Last checked: 2026-10-31 11:56 UTC
 
 | Model | Free? | Usage |
 |---|:---:|:---:|
@@ -77,16 +77,18 @@ It answers one question:
 | [`kimi-k2.7-code:cloud`](https://ollama.com/library/kimi-k2.7-code:cloud) | 🔒 | ▰▰▰▱ |
 | [`kimi-k2:1t-cloud`](https://ollama.com/library/kimi-k2:1t-cloud) | 🔒 | ▰▰▰▱ |
 | [`kimi-k3:cloud`](https://ollama.com/library/kimi-k3:cloud) | 🔒 | ▰▰▰▰ |
+| [`mimo-v2.6-flash:cloud`](https://ollama.com/library/mimo-v2.6-flash:cloud) | 🔒 | — |
+| [`mimo-v2.6-pro:cloud`](https://ollama.com/library/mimo-v2.6-pro:cloud) | 🔒 | — |
 | [`minimax-m2.7:cloud`](https://ollama.com/library/minimax-m2.7:cloud) | 🔒 | ▰▰▱▱ |
 | [`minimax-m3.1-flash:cloud`](https://ollama.com/library/minimax-m3.1-flash:cloud) | 🔒 | ▰▰▱▱ |
 | [`minimax-m3:cloud`](https://ollama.com/library/minimax-m3:cloud) | 🔒 | ▰▰▰▱ |
 | [`mistral-large-3:675b-cloud`](https://ollama.com/library/mistral-large-3:675b-cloud) | 🔒 | ▰▰▱▱ |
+| [`mistral-large-4:cloud`](https://ollama.com/library/mistral-large-4:cloud) | 🔒 | ▰▰▰▱ |
 | [`muse-spark-open:cloud`](https://ollama.com/library/muse-spark-open:cloud) | 🔒 | ▰▰▰▱ |
 | [`qwen3.5:397b-cloud`](https://ollama.com/library/qwen3.5:397b-cloud) | 🔒 | ▰▰▱▱ |
 | [`qwen3.5:cloud`](https://ollama.com/library/qwen3.5:cloud) | 🔒 | ▰▰▱▱ |
 | [`clef:27b-cloud`](https://ollama.com/library/clef:27b-cloud) | ⛔ | ▰▱▱▱ |
 | [`clef:cloud`](https://ollama.com/library/clef:cloud) | ⛔ | ▰▱▱▱ |
-| [`mistral-large-4:cloud`](https://ollama.com/library/mistral-large-4:cloud) | ⚠️ | ▰▰▰▱ |
 <!-- MODELS_TABLE_END -->
 
 ## Methodology

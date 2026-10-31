@@ -87,13 +87,6 @@
     "discovered_from": [
       "public_cloud_library"
     ],
-    "model": "kimi-k2.6:cloud",
-    "usage": null
-  },
-  {
-    "discovered_from": [
-      "public_cloud_library"
-    ],
     "model": "kimi-k2.7-code:cloud",
     "usage": null
   },
@@ -102,6 +95,20 @@
       "public_cloud_library"
     ],
     "model": "kimi-k3:cloud",
+    "usage": null
+  },
+  {
+    "discovered_from": [
+      "public_cloud_library"
+    ],
+    "model": "mimo-v2.6-flash:cloud",
+    "usage": null
+  },
+  {
+    "discovered_from": [
+      "public_cloud_library"
+    ],
+    "model": "mimo-v2.6-pro:cloud",
     "usage": null
   },
   {
@@ -123,13 +130,6 @@
       "public_cloud_library"
     ],
     "model": "minimax-m3:cloud",
-    "usage": null
-  },
-  {
-    "discovered_from": [
-      "public_cloud_library"
-    ],
-    "model": "mistral-large-3:675b-cloud",
     "usage": null
   },
   {

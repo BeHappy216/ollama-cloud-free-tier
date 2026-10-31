@@ -1,6 +1,6 @@
 [
   {
-    "checked_at": "2026-10-30T12:24:54Z",
+    "checked_at": "2026-10-31T11:54:46Z",
     "error_excerpt": null,
     "http_status": 200,
     "model": "beam:cloud",
@@ -8,7 +8,7 @@
     "usage": "low"
   },
   {
-    "checked_at": "2026-10-30T12:25:08Z",
+    "checked_at": "2026-10-31T11:54:49Z",
     "error_excerpt": "clef:27b-cloud is a decision model and only supports /v1/systemone",
     "http_status": 400,
     "model": "clef:27b-cloud",
@@ -16,7 +16,7 @@
     "usage": "low"
   },
   {
-    "checked_at": "2026-10-30T12:25:11Z",
+    "checked_at": "2026-10-31T11:54:53Z",
     "error_excerpt": "clef:cloud is a decision model and only supports /v1/systemone",
     "http_status": 400,
     "model": "clef:cloud",
@@ -72,7 +72,7 @@
     "usage": "medium"
   },
   {
-    "checked_at": "2026-10-30T12:25:14Z",
+    "checked_at": "2026-10-31T11:54:56Z",
     "error_excerpt": "this model is not included in your free usage, add usage credits to pay as you go: or upgrade for included usage: Try gemma4:31b-cloud, which is in the Free plan.",
     "http_status": 402,
     "model": "deepseek-v4-pro:0813-cloud",
@@ -80,7 +80,7 @@
     "usage": "extra high"
   },
   {
-    "checked_at": "2026-10-30T12:25:17Z",
+    "checked_at": "2026-10-31T11:54:59Z",
     "error_excerpt": "this model is not included in your free usage, add usage credits to pay as you go: or upgrade for included usage: Try gemma4:31b-cloud, which is in the Free plan.",
     "http_status": 402,
     "model": "deepseek-v4-pro:cloud",
@@ -96,7 +96,7 @@
     "usage": "extra high"
   },
   {
-    "checked_at": "2026-10-30T12:25:20Z",
+    "checked_at": "2026-10-31T11:55:03Z",
     "error_excerpt": "this model is not included in your free usage, add usage credits to pay as you go: or upgrade for included usage: Try gemma4:31b-cloud, which is in the Free plan.",
     "http_status": 402,
     "model": "deepseek-v4.1-flash:1017-cloud",
@@ -104,7 +104,7 @@
     "usage": "medium"
   },
   {
-    "checked_at": "2026-10-30T12:25:24Z",
+    "checked_at": "2026-10-31T11:55:06Z",
     "error_excerpt": "this model is not included in your free usage, add usage credits to pay as you go: or upgrade for included usage: Try gemma4:31b-cloud, which is in the Free plan.",
     "http_status": 402,
     "model": "deepseek-v4.1-flash:cloud",
@@ -152,7 +152,7 @@
     "usage": "low"
   },
   {
-    "checked_at": "2026-10-30T12:25:27Z",
+    "checked_at": "2026-10-31T11:55:09Z",
     "error_excerpt": null,
     "http_status": 200,
     "model": "gemma4:31b-cloud",
@@ -160,7 +160,7 @@
     "usage": "low"
   },
   {
-    "checked_at": "2026-10-30T12:25:30Z",
+    "checked_at": "2026-10-31T11:55:12Z",
     "error_excerpt": null,
     "http_status": 200,
     "model": "gemma4:cloud",
@@ -192,7 +192,7 @@
     "usage": "high"
   },
   {
-    "checked_at": "2026-10-30T12:25:33Z",
+    "checked_at": "2026-10-31T11:55:16Z",
     "error_excerpt": "this model is not included in your free usage, add usage credits to pay as you go: or upgrade for included usage: Try gemma4:31b-cloud, which is in the Free plan.",
     "http_status": 402,
     "model": "glm-5.2:cloud",
@@ -200,7 +200,7 @@
     "usage": "high"
   },
   {
-    "checked_at": "2026-10-30T12:25:36Z",
+    "checked_at": "2026-10-31T11:55:19Z",
     "error_excerpt": "this model is not included in your free usage, add usage credits to pay as you go: or upgrade for included usage: Try gemma4:31b-cloud, which is in the Free plan.",
     "http_status": 402,
     "model": "glm-5.3-flash:cloud",
@@ -208,7 +208,7 @@
     "usage": "medium"
   },
   {
-    "checked_at": "2026-10-30T12:25:40Z",
+    "checked_at": "2026-10-31T11:55:22Z",
     "error_excerpt": "this model is not included in your free usage, add usage credits to pay as you go: or upgrade for included usage: Try gemma4:31b-cloud, which is in the Free plan.",
     "http_status": 402,
     "model": "glm-5.3:cloud",
@@ -264,7 +264,7 @@
     "usage": "high"
   },
   {
-    "checked_at": "2026-10-30T12:25:46Z",
+    "checked_at": "2026-10-31T11:55:26Z",
     "error_excerpt": "this model is not included in your free usage, add usage credits to pay as you go: or upgrade for included usage: Try gemma4:31b-cloud, which is in the Free plan.",
     "http_status": 402,
     "model": "kimi-k2.7-code:cloud",
@@ -280,12 +280,28 @@
     "usage": "high"
   },
   {
-    "checked_at": "2026-10-30T12:25:49Z",
+    "checked_at": "2026-10-31T11:55:29Z",
     "error_excerpt": "this model is not included in your free usage, add usage credits to pay as you go: or upgrade for included usage: Try gemma4:31b-cloud, which is in the Free plan.",
     "http_status": 402,
     "model": "kimi-k3:cloud",
     "status": "requires_subscription",
     "usage": "extra high"
+  },
+  {
+    "checked_at": "2026-10-31T11:55:32Z",
+    "error_excerpt": "this model is not included in your free usage, add usage credits to pay as you go: or upgrade for included usage: Try gemma4:31b-cloud, which is in the Free plan.",
+    "http_status": 402,
+    "model": "mimo-v2.6-flash:cloud",
+    "status": "requires_subscription",
+    "usage": null
+  },
+  {
+    "checked_at": "2026-10-31T11:55:35Z",
+    "error_excerpt": "this model is not included in your free usage, add usage credits to pay as you go: or upgrade for included usage: Try gemma4:31b-cloud, which is in the Free plan.",
+    "http_status": 402,
+    "model": "mimo-v2.6-pro:cloud",
+    "status": "requires_subscription",
+    "usage": null
   },
   {
     "checked_at": "2026-07-11T04:42:27Z",
@@ -304,7 +320,7 @@
     "usage": "medium"
   },
   {
-    "checked_at": "2026-10-30T12:25:53Z",
+    "checked_at": "2026-10-31T11:55:38Z",
     "error_excerpt": "this model is not included in your free usage, add usage credits to pay as you go: or upgrade for included usage: Try gemma4:31b-cloud, which is in the Free plan.",
     "http_status": 402,
     "model": "minimax-m2.7:cloud",
@@ -320,7 +336,7 @@
     "usage": "medium"
   },
   {
-    "checked_at": "2026-10-30T12:25:56Z",
+    "checked_at": "2026-10-31T11:55:42Z",
     "error_excerpt": "this model is not included in your free usage, add usage credits to pay as you go: or upgrade for included usage: Try gemma4:31b-cloud, which is in the Free plan.",
     "http_status": 402,
     "model": "minimax-m3.1-flash:cloud",
@@ -328,7 +344,7 @@
     "usage": "medium"
   },
   {
-    "checked_at": "2026-10-30T12:25:59Z",
+    "checked_at": "2026-10-31T11:55:45Z",
     "error_excerpt": "this model is not included in your free usage, add usage credits to pay as you go: or upgrade for included usage: Try gemma4:31b-cloud, which is in the Free plan.",
     "http_status": 402,
     "model": "minimax-m3:cloud",
@@ -368,15 +384,15 @@
     "usage": "medium"
   },
   {
-    "checked_at": "2026-10-30T12:26:05Z",
-    "error_excerpt": "This model is currently being rolled out and is not yet available to you. Please check back later.",
-    "http_status": 403,
+    "checked_at": "2026-10-31T11:55:48Z",
+    "error_excerpt": "this model is not included in your free usage, add usage credits to pay as you go: or upgrade for included usage: Try gemma4:31b-cloud, which is in the Free plan.",
+    "http_status": 402,
     "model": "mistral-large-4:cloud",
-    "status": "error",
+    "status": "requires_subscription",
     "usage": "high"
   },
   {
-    "checked_at": "2026-10-30T12:26:08Z",
+    "checked_at": "2026-10-31T11:55:51Z",
     "error_excerpt": "this model is not included in your free usage, add usage credits to pay as you go: or upgrade for included usage: Try gemma4:31b-cloud, which is in the Free plan.",
     "http_status": 402,
     "model": "muse-spark-open:cloud",
@@ -384,7 +400,7 @@
     "usage": "high"
   },
   {
-    "checked_at": "2026-10-30T12:26:12Z",
+    "checked_at": "2026-10-31T11:55:54Z",
     "error_excerpt": null,
     "http_status": 200,
     "model": "nemotron-3-nano:30b-cloud",
@@ -392,7 +408,7 @@
     "usage": "low"
   },
   {
-    "checked_at": "2026-10-30T12:26:15Z",
+    "checked_at": "2026-10-31T11:55:57Z",
     "error_excerpt": null,
     "http_status": 200,
     "model": "nemotron-3-super:cloud",
@@ -400,7 +416,7 @@
     "usage": "medium"
   },
   {
-    "checked_at": "2026-10-30T12:26:18Z",
+    "checked_at": "2026-10-31T11:56:01Z",
     "error_excerpt": null,
     "http_status": 200,
     "model": "nemotron-3-ultra:cloud",
