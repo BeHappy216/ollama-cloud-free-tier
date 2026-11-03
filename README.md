@@ -24,7 +24,7 @@ It answers one question:
 
 ## Models
 <!-- MODELS_TABLE_START -->
-> Last checked: 2026-11-02 15:10 UTC
+> Last checked: 2026-11-03 13:52 UTC
 
 | Model | Free? | Usage |
 |---|:---:|:---:|
@@ -49,6 +49,7 @@ It answers one question:
 | [`ministral-3:8b-cloud`](https://ollama.com/library/ministral-3:8b-cloud) | ✅ | ▰▱▱▱ |
 | [`nemotron-3-nano:30b-cloud`](https://ollama.com/library/nemotron-3-nano:30b-cloud) | ✅ | ▰▱▱▱ |
 | [`nemotron-3-super:cloud`](https://ollama.com/library/nemotron-3-super:cloud) | ✅ | ▰▰▱▱ |
+| [`nemotron-3-ultra:cloud`](https://ollama.com/library/nemotron-3-ultra:cloud) | ✅ | ▰▰▰▱ |
 | [`qwen3-coder-next:cloud`](https://ollama.com/library/qwen3-coder-next:cloud) | ✅ | ▰▰▱▱ |
 | [`qwen3-coder:480b-cloud`](https://ollama.com/library/qwen3-coder:480b-cloud) | ✅ | ▰▰▰▱ |
 | [`qwen3-next:80b-cloud`](https://ollama.com/library/qwen3-next:80b-cloud) | ✅ | ▰▰▱▱ |
@@ -88,7 +89,6 @@ It answers one question:
 | [`qwen3.5:cloud`](https://ollama.com/library/qwen3.5:cloud) | 🔒 | ▰▰▱▱ |
 | [`clef:27b-cloud`](https://ollama.com/library/clef:27b-cloud) | ⛔ | ▰▱▱▱ |
 | [`clef:cloud`](https://ollama.com/library/clef:cloud) | ⛔ | ▰▱▱▱ |
-| [`nemotron-3-ultra:cloud`](https://ollama.com/library/nemotron-3-ultra:cloud) | ⚠️ | ▰▰▰▱ |
 <!-- MODELS_TABLE_END -->
 
 ## Methodology
