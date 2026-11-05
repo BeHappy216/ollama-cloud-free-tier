@@ -24,7 +24,7 @@ It answers one question:
 
 ## Models
 <!-- MODELS_TABLE_START -->
-> Last checked: 2026-11-04 14:00 UTC
+> Last checked: 2026-11-05 14:21 UTC
 
 | Model | Free? | Usage |
 |---|:---:|:---:|
@@ -76,6 +76,7 @@ It answers one question:
 | [`kimi-k2.6:cloud`](https://ollama.com/library/kimi-k2.6:cloud) | 🔒 | ▰▰▰▱ |
 | [`kimi-k2.7-code:cloud`](https://ollama.com/library/kimi-k2.7-code:cloud) | 🔒 | ▰▰▰▱ |
 | [`kimi-k2:1t-cloud`](https://ollama.com/library/kimi-k2:1t-cloud) | 🔒 | ▰▰▰▱ |
+| [`kimi-k3.1-pro:cloud`](https://ollama.com/library/kimi-k3.1-pro:cloud) | 🔒 | — |
 | [`kimi-k3:cloud`](https://ollama.com/library/kimi-k3:cloud) | 🔒 | ▰▰▰▰ |
 | [`mimo-v2.6-flash:cloud`](https://ollama.com/library/mimo-v2.6-flash:cloud) | 🔒 | — |
 | [`mimo-v2.6-pro:cloud`](https://ollama.com/library/mimo-v2.6-pro:cloud) | 🔒 | — |

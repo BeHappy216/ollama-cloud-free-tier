@@ -24,20 +24,6 @@
     "discovered_from": [
       "public_cloud_library"
     ],
-    "model": "deepseek-v4-pro:0813-cloud",
-    "usage": null
-  },
-  {
-    "discovered_from": [
-      "public_cloud_library"
-    ],
-    "model": "deepseek-v4-pro:cloud",
-    "usage": null
-  },
-  {
-    "discovered_from": [
-      "public_cloud_library"
-    ],
     "model": "deepseek-v4.1-flash:1017-cloud",
     "usage": null
   },
@@ -88,6 +74,13 @@
       "public_cloud_library"
     ],
     "model": "kimi-k2.7-code:cloud",
+    "usage": null
+  },
+  {
+    "discovered_from": [
+      "public_cloud_library"
+    ],
+    "model": "kimi-k3.1-pro:cloud",
     "usage": null
   },
   {
