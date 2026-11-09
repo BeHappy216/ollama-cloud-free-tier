@@ -24,6 +24,20 @@
     "discovered_from": [
       "public_cloud_library"
     ],
+    "model": "deepseek-v4-pro:0813-cloud",
+    "usage": null
+  },
+  {
+    "discovered_from": [
+      "public_cloud_library"
+    ],
+    "model": "deepseek-v4-pro:cloud",
+    "usage": null
+  },
+  {
+    "discovered_from": [
+      "public_cloud_library"
+    ],
     "model": "deepseek-v4.1-flash:1017-cloud",
     "usage": null
   },
@@ -73,6 +87,13 @@
     "discovered_from": [
       "public_cloud_library"
     ],
+    "model": "kimi-k2.6:cloud",
+    "usage": null
+  },
+  {
+    "discovered_from": [
+      "public_cloud_library"
+    ],
     "model": "kimi-k2.7-code:cloud",
     "usage": null
   },
@@ -108,13 +129,6 @@
     "discovered_from": [
       "public_cloud_library"
     ],
-    "model": "minimax-m2.7:cloud",
-    "usage": null
-  },
-  {
-    "discovered_from": [
-      "public_cloud_library"
-    ],
     "model": "minimax-m3.1-flash:cloud",
     "usage": null
   },
@@ -137,13 +151,6 @@
       "public_cloud_library"
     ],
     "model": "muse-spark-open:cloud",
-    "usage": null
-  },
-  {
-    "discovered_from": [
-      "public_cloud_library"
-    ],
-    "model": "nemotron-3-nano:30b-cloud",
     "usage": null
   },
   {
