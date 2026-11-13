@@ -87,7 +87,7 @@
     "discovered_from": [
       "public_cloud_library"
     ],
-    "model": "kimi-k2.6:cloud",
+    "model": "inkling-2-small:cloud",
     "usage": null
   },
   {

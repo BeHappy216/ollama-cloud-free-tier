@@ -24,7 +24,7 @@ It answers one question:
 
 ## Models
 <!-- MODELS_TABLE_START -->
-> Last checked: 2026-11-12 14:53 UTC
+> Last checked: 2026-11-13 14:15 UTC
 
 | Model | Free? | Usage |
 |---|:---:|:---:|
@@ -69,6 +69,7 @@ It answers one question:
 | [`glm-5.3-flash:cloud`](https://ollama.com/library/glm-5.3-flash:cloud) | 🔒 | ▰▰▱▱ |
 | [`glm-5.3:cloud`](https://ollama.com/library/glm-5.3:cloud) | 🔒 | ▰▰▰▱ |
 | [`glm-5:cloud`](https://ollama.com/library/glm-5:cloud) | 🔒 | ▰▰▰▱ |
+| [`inkling-2-small:cloud`](https://ollama.com/library/inkling-2-small:cloud) | 🔒 | — |
 | [`kimi-k2-thinking:cloud`](https://ollama.com/library/kimi-k2-thinking:cloud) | 🔒 | ▰▰▰▱ |
 | [`kimi-k2.5:cloud`](https://ollama.com/library/kimi-k2.5:cloud) | 🔒 | ▰▰▰▱ |
 | [`kimi-k2.6:cloud`](https://ollama.com/library/kimi-k2.6:cloud) | 🔒 | ▰▰▰▱ |
