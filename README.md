@@ -24,7 +24,7 @@ It answers one question:
 
 ## Models
 <!-- MODELS_TABLE_START -->
-> Last checked: 2026-11-16 15:15 UTC
+> Last checked: 2026-11-17 15:42 UTC
 
 | Model | Free? | Usage |
 |---|:---:|:---:|
