@@ -1,6 +1,6 @@
 [
   {
-    "checked_at": "2026-11-21T14:25:23Z",
+    "checked_at": "2026-11-22T14:19:20Z",
     "error_excerpt": "Add usage credits or subscribe and save up to 66%:",
     "http_status": 402,
     "model": "beam:cloud",
@@ -8,7 +8,7 @@
     "usage": "low"
   },
   {
-    "checked_at": "2026-11-21T14:25:26Z",
+    "checked_at": "2026-11-22T14:19:23Z",
     "error_excerpt": "clef:27b-cloud is a decision model and only supports /v1/systemone",
     "http_status": 400,
     "model": "clef:27b-cloud",
@@ -16,7 +16,7 @@
     "usage": "low"
   },
   {
-    "checked_at": "2026-11-21T14:25:29Z",
+    "checked_at": "2026-11-22T14:19:26Z",
     "error_excerpt": "clef:cloud is a decision model and only supports /v1/systemone",
     "http_status": 400,
     "model": "clef:cloud",
@@ -96,7 +96,7 @@
     "usage": "extra high"
   },
   {
-    "checked_at": "2026-11-21T14:25:38Z",
+    "checked_at": "2026-11-22T14:19:29Z",
     "error_excerpt": "Add usage credits or subscribe and save up to 66%:",
     "http_status": 402,
     "model": "deepseek-v4.1-flash:1017-cloud",
@@ -104,7 +104,7 @@
     "usage": "medium"
   },
   {
-    "checked_at": "2026-11-21T14:25:41Z",
+    "checked_at": "2026-11-22T14:19:32Z",
     "error_excerpt": "Add usage credits or subscribe and save up to 66%:",
     "http_status": 402,
     "model": "deepseek-v4.1-flash:cloud",
@@ -152,7 +152,7 @@
     "usage": "low"
   },
   {
-    "checked_at": "2026-11-21T14:25:45Z",
+    "checked_at": "2026-11-22T14:19:35Z",
     "error_excerpt": "Add usage credits or subscribe and save up to 66%:",
     "http_status": 402,
     "model": "gemma4:31b-cloud",
@@ -160,7 +160,7 @@
     "usage": "low"
   },
   {
-    "checked_at": "2026-11-21T14:25:48Z",
+    "checked_at": "2026-11-22T14:19:39Z",
     "error_excerpt": "Add usage credits or subscribe and save up to 66%:",
     "http_status": 402,
     "model": "gemma4:cloud",
@@ -192,7 +192,7 @@
     "usage": "high"
   },
   {
-    "checked_at": "2026-11-21T14:25:51Z",
+    "checked_at": "2026-11-22T14:19:42Z",
     "error_excerpt": "Add usage credits or subscribe and save up to 66%:",
     "http_status": 402,
     "model": "glm-5.2:cloud",
@@ -200,7 +200,7 @@
     "usage": "high"
   },
   {
-    "checked_at": "2026-11-21T14:25:54Z",
+    "checked_at": "2026-11-22T14:19:45Z",
     "error_excerpt": "Add usage credits or subscribe and save up to 66%:",
     "http_status": 402,
     "model": "glm-5.3-flash:cloud",
@@ -208,7 +208,7 @@
     "usage": "medium"
   },
   {
-    "checked_at": "2026-11-21T14:25:57Z",
+    "checked_at": "2026-11-22T14:19:48Z",
     "error_excerpt": "Add usage credits or subscribe and save up to 66%:",
     "http_status": 402,
     "model": "glm-5.3:cloud",
@@ -240,7 +240,15 @@
     "usage": "low"
   },
   {
-    "checked_at": "2026-11-21T14:26:00Z",
+    "checked_at": "2026-11-22T14:19:51Z",
+    "error_excerpt": "Add usage credits or subscribe and save up to 66%:",
+    "http_status": 402,
+    "model": "hy4:cloud",
+    "status": "requires_subscription",
+    "usage": null
+  },
+  {
+    "checked_at": "2026-11-22T14:19:54Z",
     "error_excerpt": "Add usage credits or subscribe and save up to 66%:",
     "http_status": 402,
     "model": "inkling-2-small:cloud",
@@ -272,7 +280,7 @@
     "usage": "high"
   },
   {
-    "checked_at": "2026-11-21T14:26:03Z",
+    "checked_at": "2026-11-22T14:19:58Z",
     "error_excerpt": "Add usage credits or subscribe and save up to 66%:",
     "http_status": 402,
     "model": "kimi-k2.7-code:cloud",
@@ -288,7 +296,7 @@
     "usage": "high"
   },
   {
-    "checked_at": "2026-11-21T14:26:06Z",
+    "checked_at": "2026-11-22T14:20:01Z",
     "error_excerpt": "Add usage credits or subscribe and save up to 66%:",
     "http_status": 402,
     "model": "kimi-k3.1-pro:cloud",
@@ -296,7 +304,7 @@
     "usage": null
   },
   {
-    "checked_at": "2026-11-21T14:26:09Z",
+    "checked_at": "2026-11-22T14:20:04Z",
     "error_excerpt": "Add usage credits or subscribe and save up to 66%:",
     "http_status": 402,
     "model": "kimi-k3:cloud",
@@ -304,7 +312,7 @@
     "usage": "extra high"
   },
   {
-    "checked_at": "2026-11-21T14:26:12Z",
+    "checked_at": "2026-11-22T14:20:07Z",
     "error_excerpt": "Add usage credits or subscribe and save up to 66%:",
     "http_status": 402,
     "model": "mimo-v2.6-flash:cloud",
@@ -312,7 +320,7 @@
     "usage": null
   },
   {
-    "checked_at": "2026-11-21T14:26:16Z",
+    "checked_at": "2026-11-22T14:20:10Z",
     "error_excerpt": "Add usage credits or subscribe and save up to 66%:",
     "http_status": 402,
     "model": "mimo-v2.6-pro:cloud",
@@ -352,7 +360,7 @@
     "usage": "medium"
   },
   {
-    "checked_at": "2026-11-21T14:26:19Z",
+    "checked_at": "2026-11-22T14:20:13Z",
     "error_excerpt": "Add usage credits or subscribe and save up to 66%:",
     "http_status": 402,
     "model": "minimax-m3.1-flash:cloud",
@@ -360,7 +368,7 @@
     "usage": "medium"
   },
   {
-    "checked_at": "2026-11-21T14:26:22Z",
+    "checked_at": "2026-11-22T14:20:17Z",
     "error_excerpt": "Add usage credits or subscribe and save up to 66%:",
     "http_status": 402,
     "model": "minimax-m3:cloud",
@@ -400,7 +408,7 @@
     "usage": "medium"
   },
   {
-    "checked_at": "2026-11-21T14:26:25Z",
+    "checked_at": "2026-11-22T14:20:20Z",
     "error_excerpt": "Add usage credits or subscribe and save up to 66%:",
     "http_status": 402,
     "model": "mistral-large-4:cloud",
@@ -408,7 +416,7 @@
     "usage": "high"
   },
   {
-    "checked_at": "2026-11-21T14:26:28Z",
+    "checked_at": "2026-11-22T14:20:23Z",
     "error_excerpt": "Add usage credits or subscribe and save up to 66%:",
     "http_status": 402,
     "model": "muse-spark-open:cloud",
@@ -424,7 +432,7 @@
     "usage": "low"
   },
   {
-    "checked_at": "2026-11-21T14:26:31Z",
+    "checked_at": "2026-11-22T14:20:26Z",
     "error_excerpt": "Add usage credits or subscribe and save up to 66%:",
     "http_status": 402,
     "model": "nemotron-3-super:cloud",
@@ -432,7 +440,7 @@
     "usage": "medium"
   },
   {
-    "checked_at": "2026-11-21T14:26:34Z",
+    "checked_at": "2026-11-22T14:20:29Z",
     "error_excerpt": "Add usage credits or subscribe and save up to 66%:",
     "http_status": 402,
     "model": "nemotron-3-ultra:cloud",

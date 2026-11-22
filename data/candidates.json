@@ -24,20 +24,6 @@
     "discovered_from": [
       "public_cloud_library"
     ],
-    "model": "deepseek-v4-pro:0813-cloud",
-    "usage": null
-  },
-  {
-    "discovered_from": [
-      "public_cloud_library"
-    ],
-    "model": "deepseek-v4-pro:cloud",
-    "usage": null
-  },
-  {
-    "discovered_from": [
-      "public_cloud_library"
-    ],
     "model": "deepseek-v4.1-flash:1017-cloud",
     "usage": null
   },
@@ -81,6 +67,13 @@
       "public_cloud_library"
     ],
     "model": "glm-5.3:cloud",
+    "usage": null
+  },
+  {
+    "discovered_from": [
+      "public_cloud_library"
+    ],
+    "model": "hy4:cloud",
     "usage": null
   },
   {
